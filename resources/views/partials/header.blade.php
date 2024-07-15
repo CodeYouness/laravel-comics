@@ -2,7 +2,7 @@
     <div class="container">
 
         <section class="image">
-            <img src="../assets/img/dc-logo.png" alt="">
+            <img src={{Vite::asset("resources/img/dc-logo.png")}} alt="">
         </section>
 
         <section class="list-title">

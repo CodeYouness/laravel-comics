@@ -25,7 +25,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <h2>dc</h2>
+                    <h2>sites</h2>
                     <ul>
                         <li>
                             <a href="#">Link</a>
@@ -35,7 +35,7 @@
             </section>
 
             <section class="logo">
-                {{-- <img src="../assets/img/dc-logo-bg.png" alt=""> --}}
+                <img src={{Vite::asset("resources/img/dc-logo-bg.png")}} alt="">
             </section>
         </div>
     </main>
@@ -44,7 +44,7 @@
         <button>sign-up now!</button>
         <section>
             <span>follow us</span>
-            {{-- <img v-for="social in socials" :src="social.url" :alt="social.social"> --}}
+            <img>
         </section>
     </div>
 </footer>
