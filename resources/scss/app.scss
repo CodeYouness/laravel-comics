@@ -1,1 +1,154 @@
-@import "~bootstrap/scss/bootstrap.scss";
+// @import "~bootstrap/scss/bootstrap.scss";
+
+// foglio di stile generale
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        height: fit-content;
+
+        .image {
+            width: 7%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .list-title {
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin: 0 0.5rem;
+                    padding: calc(15vh/2) 0;
+
+                    &:hover {
+                        color: #0282f9;
+                    }
+                }
+
+                .active {
+                    color: #0282f9;
+                    border-bottom: 5px solid #0282f9;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    main {
+        background-image: url(../assets/img/footer-bg.jpg);
+
+        .container-link {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+
+            .link {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                align-items: start;
+                padding: 3rem 0;
+
+                h2 {
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 1.3rem;
+                }
+
+                ul {
+                    padding: 1rem 0;
+
+                    li {
+                        color: #717370;
+                        padding: 0.2rem 2rem 0.2rem 0;
+                        font-size: 0.8rem
+                    }
+                }
+            }
+
+            .logo {
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: -25%;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    footer {
+        position: relative;
+        z-index: 2;
+        padding: 1.5rem 0 2rem;
+        background-color: #303030;
+
+        div {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                border-radius: 0;
+                background-color: #303030;
+                text-transform: uppercase;
+                color: white;
+                border: 2px solid #0282f9;
+                padding: 0.5rem 1rem;
+            }
+
+            section {
+                span {
+                    text-transform: uppercase;
+                    color: #0282f9;
+                    padding-right: 1rem;
+                }
+
+                img {
+                    vertical-align: middle;
+                    margin-left: 1rem;
+                    filter: brightness(100%);
+
+                    &:hover {
+                        filter: brightness(150%);
+                    }
+                }
+            }
+        }
+    }
+}
