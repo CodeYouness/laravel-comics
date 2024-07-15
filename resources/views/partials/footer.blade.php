@@ -40,11 +40,13 @@
         </div>
     </main>
 
-    <div>
-        <button>sign-up now!</button>
-        <section>
-            <span>follow us</span>
-            <img>
-        </section>
-    </div>
+    <section>
+        <div>
+            <button>sign-up now!</button>
+            <section>
+                <span>follow us</span>
+                <img>
+            </section>
+        </div>
+    </section>
 </footer>

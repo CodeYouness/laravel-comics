@@ -68,7 +68,7 @@ header {
 
 footer {
     main {
-        background-image: url(../assets/img/footer-bg.jpg);
+        background-image: url(../img/footer-bg.jpg);
 
         .container-link {
             max-width: 1200px;
@@ -110,7 +110,7 @@ footer {
         }
     }
 
-    footer {
+    >section {
         position: relative;
         z-index: 2;
         padding: 1.5rem 0 2rem;
