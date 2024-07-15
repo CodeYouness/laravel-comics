@@ -45,7 +45,11 @@
             <button>sign-up now!</button>
             <section>
                 <span>follow us</span>
-                <img>
+                <img src={{Vite::asset("resources/img/footer-facebook.png")}} alt="">
+                <img src={{Vite::asset("resources/img/footer-twitter.png")}} alt="">
+                <img src={{Vite::asset("resources/img/footer-youtube.png")}} alt="">
+                <img src={{Vite::asset("resources/img/footer-pinterest.png")}} alt="">
+                <img src={{Vite::asset("resources/img/footer-twitter.png")}} alt="">
             </section>
         </div>
     </section>
