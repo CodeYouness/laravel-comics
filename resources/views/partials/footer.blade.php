@@ -35,7 +35,7 @@
             </section>
 
             <section class="logo">
-                <img src="../assets/img/dc-logo-bg.png" alt="">
+                {{-- <img src="../assets/img/dc-logo-bg.png" alt=""> --}}
             </section>
         </div>
     </main>
@@ -44,7 +44,7 @@
         <button>sign-up now!</button>
         <section>
             <span>follow us</span>
-            <img v-for="social in socials" :src="social.url" :alt="social.social">
+            {{-- <img v-for="social in socials" :src="social.url" :alt="social.social"> --}}
         </section>
     </div>
 </footer>
