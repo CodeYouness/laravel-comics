@@ -17,7 +17,12 @@
 
         <div class="content">
             @foreach ($magazines as $magazine)
-
+                <article id="single-magazine">
+                    <div>
+                        <img :src="singleCard.thumb" :alt="singleCard.type">
+                    </div>
+                    <p>{{ singleCard.series }}</p>
+                </article>
             @endforeach
         </div>
 
