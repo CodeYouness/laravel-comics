@@ -5,7 +5,9 @@
 @endsection
 
 @section('main-content')
+<main id="home-app">
     <h1>
-        homepage
+        ->Cont-enti?<-
     </h1>
+</main>
 @endsection
