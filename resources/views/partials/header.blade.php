@@ -8,10 +8,10 @@
         <section class="list-title">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="#">Comics</a>
+                    <a href="/comics">Comics</a>
                 </li>
                 <li>
                     <a href="#">Shop</a>
