@@ -5,9 +5,25 @@
 @endsection
 
 @section('main-content')
-    <div>
-        @foreach ($magazines as $magazine)
+    <main>
 
-        @endforeach
-    </div>
+        <div class="jumbo">
+            <article>
+                <div>
+                    <p>current series</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="content">
+            @foreach ($magazines as $magazine)
+
+            @endforeach
+        </div>
+
+        <div class="more-content">
+            <button>load more</button>
+
+        </div>
+    </main>
 @endsection
