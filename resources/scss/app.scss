@@ -21,8 +21,11 @@ a:hover {
     color: lightgray;
 }
 
-// Footer
-@import './partials/footer';
-
 // Header
 @import './partials/header';
+
+// Main
+@import './partials/main';
+
+// Footer
+@import './partials/footer';
