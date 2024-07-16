@@ -19,9 +19,9 @@
             @foreach ($magazines as $magazine)
                 <article id="single-magazine">
                     <div>
-                        <img src={{$magazine['thumb']}} alt=>
+                        <img src={{$magazine['thumb']}} alt={{$magazine['title']}}>
                     </div>
-                    <p>{{ $magazine['description'] }}</p>
+                    <p>{{ $magazine['title'] }}</p>
                 </article>
             @endforeach
         </div>
