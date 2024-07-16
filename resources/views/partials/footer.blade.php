@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer-app">
     <main>
         <div class="container-link">
             <section class="link">

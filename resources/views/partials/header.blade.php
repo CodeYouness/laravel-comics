@@ -1,4 +1,4 @@
-<header>
+<header id="header-app">
     <div class="container">
 
         <section class="image">
@@ -8,13 +8,13 @@
         <section class="list-title">
             <ul>
                 <li>
-                    <a href="#">Link</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Link</a>
+                    <a href="#">Comics</a>
                 </li>
                 <li>
-                    <a href="#">Link</a>
+                    <a href="#">Shop</a>
                 </li>
             </ul>
         </section>

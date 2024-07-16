@@ -1,0 +1,44 @@
+header#header-app {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        height: fit-content;
+
+        .image {
+            width: 7%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .list-title {
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin: 0 0.5rem;
+                    padding: calc(15vh/2) 0;
+
+                    &:hover {
+                        color: #0282f9;
+                    }
+                }
+
+                .active {
+                    color: #0282f9;
+                    border-bottom: 5px solid #0282f9;
+                }
+            }
+        }
+    }
+}

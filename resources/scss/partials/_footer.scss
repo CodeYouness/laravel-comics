@@ -1,0 +1,86 @@
+footer#footer-app {
+    main {
+        background-image: url(../img/footer-bg.jpg);
+
+        .container-link {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+
+            .link {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                align-items: start;
+                padding: 3rem 0;
+
+                h2 {
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 1.3rem;
+                }
+
+                ul {
+                    padding: 1rem 0;
+
+                    li {
+                        color: #717370;
+                        padding: 0.2rem 2rem 0.2rem 0;
+                        font-size: 0.8rem
+                    }
+                }
+            }
+
+            .logo {
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: -25%;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    >section {
+        position: relative;
+        z-index: 2;
+        padding: 1.5rem 0 2rem;
+        background-color: #303030;
+
+        div {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                border-radius: 0;
+                background-color: #303030;
+                text-transform: uppercase;
+                color: white;
+                border: 2px solid #0282f9;
+                padding: 0.5rem 1rem;
+            }
+
+            section {
+                span {
+                    text-transform: uppercase;
+                    color: #0282f9;
+                    padding-right: 1rem;
+                }
+
+                img {
+                    vertical-align: middle;
+                    margin-left: 1rem;
+                    filter: brightness(100%);
+
+                    &:hover {
+                        filter: brightness(150%);
+                    }
+                }
+            }
+        }
+    }
+}
