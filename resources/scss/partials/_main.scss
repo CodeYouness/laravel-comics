@@ -2,6 +2,7 @@ main#main-app {
     background-color: #1c1c1c;
     color: white;
     position: relative;
+    z-index: 2;
 
     .jumbo {
         height: 50vh;

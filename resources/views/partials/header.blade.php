@@ -8,10 +8,10 @@
         <section class="list-title">
             <ul>
                 <li class="{{Route::currentRouteName() === 'guest.home' ? 'active' : ''}}">
-                    <a href="/">Home</a>
+                    <a href="{{route('guest.home')}}">Home</a>
                 </li>
                 <li class="{{Route::currentRouteName() === 'guest.comics' ? 'active' : ''}}">
-                    <a href="/comics">Comics</a>
+                    <a href="{{route('guest.comics')}}">Comics</a>
                 </li>
                 <li>
                     <a href="#">Shop</a>
