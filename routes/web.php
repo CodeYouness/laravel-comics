@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.home');
-});
+})->name('guest.home');
 Route::get('/comics', function () {
     $magazines = [
         [
@@ -129,4 +129,4 @@ Route::get('/comics', function () {
     ];
 
     return view('pages.comics', compact('magazines'));
-});
+})->name('guest.comics');
