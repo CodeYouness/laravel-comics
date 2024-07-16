@@ -19,9 +19,9 @@
             @foreach ($magazines as $magazine)
                 <article id="single-magazine">
                     <div>
-                        <img :src="singleCard.thumb" :alt="singleCard.type">
+                        <img src={{$magazine['thumb']}} alt=>
                     </div>
-                    <p>{{ singleCard.series }}</p>
+                    <p>{{ $magazine['description'] }}</p>
                 </article>
             @endforeach
         </div>
