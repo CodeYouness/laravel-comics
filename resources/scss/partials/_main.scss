@@ -1,3 +1,52 @@
 main#main-app {
-    color: black;
+    background-color: #1c1c1c;
+    color: white;
+    position: relative;
+
+    .jumbo {
+        height: 50vh;
+        background-image: url(../img/jumbotron.jpg);
+        background-size: cover;
+
+        article {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            top: 100%;
+            transform: translateY(-50%);
+
+            div {
+                text-transform: uppercase;
+                background-color: #0282f9;
+                padding: 0.5rem 1rem;
+                width: fit-content;
+                font-weight: 700;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .more-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            text-transform: uppercase;
+            padding: 0.5rem 3rem;
+            background-color: #0282f9;
+            border: 0;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+    }
 }

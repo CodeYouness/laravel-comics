@@ -5,7 +5,7 @@
 @endsection
 
 @section('main-content')
-    <main>
+    <main id="main-app">
 
         <div class="jumbo">
             <article>
